@@ -1,0 +1,13 @@
+.background {
+	background: url(../../images/bg-weather.png);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
