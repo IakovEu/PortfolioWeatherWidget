@@ -1,22 +1,44 @@
-.info{
-    color: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
+.none {
+	display: none;
+}
 
-    .details{
-        font-size: 18px;
-        margin: 0 0 52px 35px;
-    }
+.info {
+	color: #ffffff;
+	font-family: Arial, Helvetica, sans-serif;
 
-    .beforeAnswer{
-        font-size: 24px;
-        margin: 0 auto;
-        width: 333px;
-    }
-    
-    .imagesBeforeAnswer{
-        margin: 120px auto;
-        display: flex;
-        flex-wrap: wrap;
-        width: 130px;
-    }
+	.details {
+		font-size: 18px;
+		margin: 0 0 43px 35px;
+		font-weight: 400;
+	}
+
+	.title {
+		font-size: 24px;
+		margin: 0 auto;
+		text-align: center;
+		width: -webkit-fit-content;
+		width: -moz-fit-content;
+		width: fit-content;
+		font-weight: 400;
+	}
+
+	.imagesBeforeAnswer {
+		margin: 120px auto;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		width: 130px;
+	}
+
+	.weather {
+		margin: 35px 0 0 35px;
+		max-width: 355px;
+		border-bottom: 1px solid #ffffff;
+	}
+
+	.oneDay{
+		color: red;
+	}
 }
