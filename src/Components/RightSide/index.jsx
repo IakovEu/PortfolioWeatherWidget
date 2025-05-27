@@ -15,7 +15,7 @@ export default function RightSide({ data, onClick, onChange, toggler, geo }) {
 				<button className={st.btn} onClick={onClick}>
 					<img src={search} alt="*" />
 				</button>
-				<div className={st.question}>Request a 5 day forecast</div>
+				<div className={st.question}>One / five day forecast</div>
 				<label className={st.switch}>
 					<input type="checkbox" onChange={onChange} />
 					<span className={st.slider}></span>

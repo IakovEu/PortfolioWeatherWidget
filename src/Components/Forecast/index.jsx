@@ -7,6 +7,7 @@ import heat from '../../images/temperature-heat.svg';
 import cold from '../../images/temperature-cold.svg';
 import wind from '../../images/wind.svg';
 import CurretWeatherPosition from '../CurrentWeatherPosition';
+import OneDayPosition from '../OneDayPosition';
 
 export default function Forecast({ forecast, toggler, geo }) {
 	// Для назначения нужного класса
@@ -32,9 +33,13 @@ export default function Forecast({ forecast, toggler, geo }) {
 
 	if (!geo && Object.keys(forecast).length !== 0 && !toggler) {
 		nameAfterSearch = st.oneDay;
+	} else if (!geo && Object.keys(forecast).length !== 0 && toggler) {
+		nameAfterSearch = st.fiveDays;
 	} else {
 		nameAfterSearch = st.none;
 	}
+
+	console.log(forecast.list);
 
 	return (
 		<div className={st.info}>
@@ -42,7 +47,11 @@ export default function Forecast({ forecast, toggler, geo }) {
 			<h2 className={st.title}>
 				{Object.keys(forecast).length === 0
 					? 'Information will be loaded here'
-					: 'CURRENT WEATHER'}
+					: geo
+					? 'WEATHER FORECAST'
+					: toggler
+					? 'FIVE DAY FORECAST'
+					: 'DAILY FORECAST'}
 			</h2>
 			<div
 				className={
@@ -85,8 +94,9 @@ export default function Forecast({ forecast, toggler, geo }) {
 					src={wind}
 				/>
 			</div>
-			<div className={nameAfterSearch}>222</div>
+			<div className={nameAfterSearch}>
+				<OneDayPosition forecast={forecast} toggler={toggler} />
+			</div>
 		</div>
 	);
 }
-//

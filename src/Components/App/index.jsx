@@ -13,8 +13,6 @@ export default function App() {
 	// Тумблер запроса на 1 или 5 дней
 	const [toggler, setToggler] = useState(false);
 
-	console.log(forecast);
-
 	// Переключение тумблера
 	const checkboxChange = (event) => {
 		setToggler(event.target.checked);
@@ -23,7 +21,7 @@ export default function App() {
 	// Запрашиваем широту и долготу
 	const getCurrentPosition = () => {
 		const err = () => {
-			console.log('mistake');
+			alert('allow access to geolocation!');
 		};
 
 		const success = (position) => {
@@ -72,7 +70,10 @@ export default function App() {
 				return response.json();
 			})
 			.then((data) => setForecast(data))
-			.catch((error) => console.error('Error:', error));
+			.catch((error) => {
+				console.error('Error:', error);
+				return setForecast({});
+			});
 	};
 
 	return (
