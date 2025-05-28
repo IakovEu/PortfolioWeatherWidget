@@ -16,7 +16,7 @@ export default function Location({ data, onClick }) {
 		positions.description = data.list[0].weather[0].description;
 	}
 	return (
-		<div>
+		<div className={st.container}>
 			<h1 className={st.title}>Weather Widget</h1>
 			<div className={Object.keys(data).length === 0 ? st.block : st.none}>
 				<button className={st.btn} onClick={onClick}>

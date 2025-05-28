@@ -1,14 +1,37 @@
 .background {
-	background: url(../../images/bg-weather.png);
+	background: url(../../images/bg-weather-1.png);
 	height: 100vh;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center 100%;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-pack: justify;
-	-ms-flex-pack: justify;
-	justify-content: space-between;
-	overflow-y: hidden; 
+	overflow-y: hidden;
+
+	.container {
+		margin: 0 auto;
+		max-width: 1800px;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: justify;
+		-ms-flex-pack: justify;
+		justify-content: space-between;
+	}
+}
+
+@media (max-width: 768px) {
+	.background {
+		background: url(../../images/bg-weather-2.png);
+
+		.container {
+			flex-direction: column;
+		}
+	}
+}
+
+@media (max-width: 540px) {
+	.background {
+		background: url(../../images/bg-weather-3.png);
+		background-repeat: no-repeat;
+		background-size: cover;	
+	}
 }

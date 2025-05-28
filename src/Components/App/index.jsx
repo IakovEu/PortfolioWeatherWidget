@@ -21,7 +21,7 @@ export default function App() {
 	// Запрашиваем широту и долготу
 	const getCurrentPosition = () => {
 		const err = () => {
-			alert('allow access to geolocation!');
+			alert('Allow access to geolocation!');
 		};
 
 		const success = (position) => {
@@ -78,14 +78,16 @@ export default function App() {
 
 	return (
 		<div className={st.background}>
-			<Location data={forecast} onClick={getCurrentPosition} />
-			<RightSide
-				data={forecast}
-				onClick={getInputValue}
-				onChange={checkboxChange}
-				toggler={toggler}
-				geo={geo}
-			/>
+			<div className={st.container}>
+				<Location data={forecast} onClick={getCurrentPosition} />
+				<RightSide
+					data={forecast}
+					onClick={getInputValue}
+					onChange={checkboxChange}
+					toggler={toggler}
+					geo={geo}
+				/>
+			</div>
 		</div>
 	);
 }

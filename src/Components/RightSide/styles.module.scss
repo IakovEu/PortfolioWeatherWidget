@@ -1,11 +1,13 @@
 .weatherInfo {
 	border-left: 5px solid #ffffff14;
 	width: 500px;
+	height: 100vh;
 	-webkit-backdrop-filter: blur(8px);
 	backdrop-filter: blur(8px);
 
 	.form {
-		margin: 40px 0 41px 35px;
+		max-width: 400px;
+		margin: 40px auto;
 		display: -webkit-box;
 		display: -ms-flexbox;
 		display: flex;
@@ -25,7 +27,7 @@
 			color: #ffffff;
 			font-size: 20px;
 			font-family: Arial, Helvetica, sans-serif;
-            text-transform: capitalize;
+			text-transform: capitalize;
 
 			&::-webkit-input-placeholder {
 				color: #ffffffa9;
@@ -126,6 +128,39 @@
 			-webkit-transform: translateX(26px);
 			-ms-transform: translateX(26px);
 			transform: translateX(26px);
+		}
+	}
+}
+
+@media (min-width: 1800px) {
+	.weatherInfo {
+		border-right: 5px solid #ffffff14;
+
+		.form {
+			margin-bottom: 15vh;
+		}
+	}
+}
+
+@media (max-width: 1200px) {
+	.weatherInfo {
+		max-width: 450px;
+	}
+}
+
+@media (max-width: 768px) {
+	.weatherInfo {
+		border-top: 5px solid #ffffff14;
+		border-left: none;
+		width: auto;
+		max-width: 1000px;
+		max-height: 721px;
+
+		.form {
+			position: absolute;
+			top: -260px;
+			right: 0;
+			max-width: 400px;
 		}
 	}
 }

@@ -20,7 +20,7 @@ const MyComponent = ({ src, time, weather, temp }) => {
 	);
 };
 
-export default function OneDayPosition({ forecast, toggler }) {
+export default function DayPosition({ forecast, toggler }) {
 	const srcArr = { Snow, Rain, Clear, Clouds };
 	return (
 		<div className={st.block}>

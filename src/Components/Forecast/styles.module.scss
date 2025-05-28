@@ -43,3 +43,20 @@
 		margin: 35px 35px 0 35px;
 	}
 }
+
+@media (max-width: 768px) {
+	.info {
+		.details {
+			margin: 15px auto;
+			width: fit-content;
+		}
+		.weather {
+			margin: 20px auto 0;
+		}
+		.oneDay,
+		.fiveDays {
+			margin: 30px auto;
+			width: 70vw;
+		}
+	}
+}

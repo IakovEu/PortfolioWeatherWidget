@@ -7,7 +7,7 @@ import heat from '../../images/temperature-heat.svg';
 import cold from '../../images/temperature-cold.svg';
 import wind from '../../images/wind.svg';
 import CurretWeatherPosition from '../CurrentWeatherPosition';
-import OneDayPosition from '../OneDayPosition';
+import DayPosition from '../DayPosition';
 
 export default function Forecast({ forecast, toggler, geo }) {
 	// Для назначения нужного класса
@@ -95,7 +95,7 @@ export default function Forecast({ forecast, toggler, geo }) {
 				/>
 			</div>
 			<div className={nameAfterSearch}>
-				<OneDayPosition forecast={forecast} toggler={toggler} />
+				<DayPosition forecast={forecast} toggler={toggler} />
 			</div>
 		</div>
 	);
