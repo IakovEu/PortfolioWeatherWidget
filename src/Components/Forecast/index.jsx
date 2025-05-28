@@ -39,8 +39,6 @@ export default function Forecast({ forecast, toggler, geo }) {
 		nameAfterSearch = st.none;
 	}
 
-	console.log(forecast.list);
-
 	return (
 		<div className={st.info}>
 			<h3 className={st.details}>Weather Details...</h3>
