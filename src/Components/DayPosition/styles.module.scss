@@ -26,7 +26,7 @@
 
 .block {
 	overflow-y: auto;
-	max-height: 350px;
+	height: 50vh;
 
 	.position {
 		display: -webkit-box;
@@ -72,7 +72,7 @@
 @media (max-width: 768px) {
 	.block {
 		max-width: 400px;
-		max-height: 400px;
+		height: 35vh;
 		margin: 0 auto;
 
 		.position {

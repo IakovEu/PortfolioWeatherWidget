@@ -60,3 +60,16 @@
 		}
 	}
 }
+
+@media (max-width: 540px) {
+	.info {
+		.weather {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+			margin: 20px auto;
+			height: 35vh;
+			max-width: 320px;
+		}
+	}
+}

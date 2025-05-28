@@ -164,3 +164,20 @@
 		}
 	}
 }
+
+@media (max-width: 540px) {
+	.weatherInfo {
+		.form {
+			right: 15px;
+
+			.input {
+				width: 300px;
+				margin: 0 auto;
+			}
+			.question {
+				width: 233px;
+				margin: 0 auto;
+			}
+		}
+	}
+}

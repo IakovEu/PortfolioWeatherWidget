@@ -23,7 +23,10 @@
 		background: url(../../images/bg-weather-2.png);
 
 		.container {
-			flex-direction: column;
+						-webkit-box-orient: vertical;
+			-webkit-box-direction: normal;
+			    -ms-flex-direction: column;
+			        flex-direction: column;
 		}
 	}
 }
