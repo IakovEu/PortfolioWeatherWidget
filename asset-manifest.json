@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.b9cbeb2d.css",
-    "main.js": "/static/js/main.6e6f9912.js",
-    "static/js/453.dfcbff64.chunk.js": "/static/js/453.dfcbff64.chunk.js",
-    "static/media/bg-weather-1.png": "/static/media/bg-weather-1.a21414a5b77d796e6b7d.png",
-    "static/media/bg-weather-2.png": "/static/media/bg-weather-2.f8e903171067985aa334.png",
-    "static/media/bg-weather-3.png": "/static/media/bg-weather-3.10d823339bf36a1cf52a.png",
-    "static/media/snow.svg": "/static/media/snow.92fa0e1e6992b8b8e6f7b6e14b1136ea.svg",
-    "static/media/sun.svg": "/static/media/sun.fc9e9acc9e711fd2aec25ea4cc48a1bc.svg",
-    "static/media/wind.svg": "/static/media/wind.a37f9004e197f4effd8f757cccf930bd.svg",
-    "static/media/search.svg": "/static/media/search.0fbee4fed737319e045bbdbb636afb1a.svg",
-    "static/media/rain.svg": "/static/media/rain.2f0f19e53d9a6d7beed4522605637333.svg",
-    "static/media/temperature-cold.svg": "/static/media/temperature-cold.a627c3494db973fbbc20b743829b5c5f.svg",
-    "static/media/temperature-heat.svg": "/static/media/temperature-heat.25444fcb41b7327dfa0eb784fc4451f3.svg",
-    "static/media/clouds.svg": "/static/media/clouds.690d67ce8ca0b7685b38af8b05335386.svg",
-    "static/media/geolocation.svg": "/static/media/geolocation.f2a8dc1dd7aa0a8219dc09f0ed8ba574.svg",
-    "index.html": "/index.html",
-    "main.b9cbeb2d.css.map": "/static/css/main.b9cbeb2d.css.map",
-    "main.6e6f9912.js.map": "/static/js/main.6e6f9912.js.map",
-    "453.dfcbff64.chunk.js.map": "/static/js/453.dfcbff64.chunk.js.map"
+    "main.css": "/PortfolioWeatherWidget/static/css/main.e6790bd3.css",
+    "main.js": "/PortfolioWeatherWidget/static/js/main.68dbf148.js",
+    "static/js/453.dfcbff64.chunk.js": "/PortfolioWeatherWidget/static/js/453.dfcbff64.chunk.js",
+    "static/media/bg-weather-1.png": "/PortfolioWeatherWidget/static/media/bg-weather-1.a21414a5b77d796e6b7d.png",
+    "static/media/bg-weather-2.png": "/PortfolioWeatherWidget/static/media/bg-weather-2.f8e903171067985aa334.png",
+    "static/media/bg-weather-3.png": "/PortfolioWeatherWidget/static/media/bg-weather-3.10d823339bf36a1cf52a.png",
+    "static/media/snow.svg": "/PortfolioWeatherWidget/static/media/snow.92fa0e1e6992b8b8e6f7b6e14b1136ea.svg",
+    "static/media/sun.svg": "/PortfolioWeatherWidget/static/media/sun.fc9e9acc9e711fd2aec25ea4cc48a1bc.svg",
+    "static/media/wind.svg": "/PortfolioWeatherWidget/static/media/wind.a37f9004e197f4effd8f757cccf930bd.svg",
+    "static/media/search.svg": "/PortfolioWeatherWidget/static/media/search.0fbee4fed737319e045bbdbb636afb1a.svg",
+    "static/media/rain.svg": "/PortfolioWeatherWidget/static/media/rain.2f0f19e53d9a6d7beed4522605637333.svg",
+    "static/media/temperature-cold.svg": "/PortfolioWeatherWidget/static/media/temperature-cold.a627c3494db973fbbc20b743829b5c5f.svg",
+    "static/media/temperature-heat.svg": "/PortfolioWeatherWidget/static/media/temperature-heat.25444fcb41b7327dfa0eb784fc4451f3.svg",
+    "static/media/clouds.svg": "/PortfolioWeatherWidget/static/media/clouds.690d67ce8ca0b7685b38af8b05335386.svg",
+    "index.html": "/PortfolioWeatherWidget/index.html",
+    "static/media/geolocation.svg": "/PortfolioWeatherWidget/static/media/geolocation.f2a8dc1dd7aa0a8219dc09f0ed8ba574.svg",
+    "main.e6790bd3.css.map": "/PortfolioWeatherWidget/static/css/main.e6790bd3.css.map",
+    "main.68dbf148.js.map": "/PortfolioWeatherWidget/static/js/main.68dbf148.js.map",
+    "453.dfcbff64.chunk.js.map": "/PortfolioWeatherWidget/static/js/453.dfcbff64.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9cbeb2d.css",
-    "static/js/main.6e6f9912.js"
+    "static/css/main.e6790bd3.css",
+    "static/js/main.68dbf148.js"
   ]
 }
