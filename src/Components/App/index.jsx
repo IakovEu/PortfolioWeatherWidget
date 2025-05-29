@@ -34,8 +34,13 @@ export default function App() {
 
 	// Запрашиваем данные по широте и долготе
 	const requestByCoords = (lat, long) => {
+		const apiKey =
+			sessionStorage.getItem('api') ??
+			prompt('Пожалуйста, введите ваш API-ключ:');
+		sessionStorage.setItem('api', apiKey);
+		const API_KEY = process.env.REACT_APP_WEATHER_API_KEY ?? apiKey;
 		fetch(
-			`https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${long}&appid=38d3d091d3b6b35d01940b96fbd4276f`
+			`https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${long}&appid=${API_KEY}`
 		)
 			.then((response) => {
 				if (!response.ok) {
@@ -58,10 +63,15 @@ export default function App() {
 		}
 	};
 
-	// Запрашиваем данные по месту
+	// Запрашиваем данные по месту + АПИ ключ
 	const requestByCity = (city) => {
+		const apiKey =
+			sessionStorage.getItem('api') ??
+			prompt('Пожалуйста, введите ваш API-ключ:');
+		sessionStorage.setItem('api', apiKey);
+		const API_KEY = process.env.REACT_APP_WEATHER_API_KEY ?? apiKey;
 		fetch(
-			`https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=38d3d091d3b6b35d01940b96fbd4276f`
+			`https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${API_KEY}`
 		)
 			.then((response) => {
 				if (!response.ok) {

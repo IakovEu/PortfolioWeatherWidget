@@ -24,8 +24,7 @@ export default function DayPosition({ forecast, toggler }) {
 	const srcArr = { Snow, Rain, Clear, Clouds };
 	return (
 		<div className={st.block}>
-			{forecast &&
-				forecast.list &&
+			{forecast?.list &&
 				!toggler &&
 				forecast.list.map(
 					(el, ind) =>
@@ -40,8 +39,7 @@ export default function DayPosition({ forecast, toggler }) {
 							/>
 						)
 				)}
-			{forecast &&
-				forecast.list &&
+			{forecast?.list &&
 				toggler &&
 				forecast.list.map((el, ind) => (
 					<MyComponent
