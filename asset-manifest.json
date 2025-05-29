@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PortfolioWeatherWidget/static/css/main.918a1388.css",
-    "main.js": "/PortfolioWeatherWidget/static/js/main.c3233ea6.js",
+    "main.js": "/PortfolioWeatherWidget/static/js/main.942570c6.js",
     "static/js/453.dfcbff64.chunk.js": "/PortfolioWeatherWidget/static/js/453.dfcbff64.chunk.js",
     "static/media/bg-weather-1.png": "/PortfolioWeatherWidget/static/media/bg-weather-1.a21414a5b77d796e6b7d.png",
     "static/media/bg-weather-2.png": "/PortfolioWeatherWidget/static/media/bg-weather-2.f8e903171067985aa334.png",
@@ -17,11 +17,11 @@
     "index.html": "/PortfolioWeatherWidget/index.html",
     "static/media/geolocation.svg": "/PortfolioWeatherWidget/static/media/geolocation.f2a8dc1dd7aa0a8219dc09f0ed8ba574.svg",
     "main.918a1388.css.map": "/PortfolioWeatherWidget/static/css/main.918a1388.css.map",
-    "main.c3233ea6.js.map": "/PortfolioWeatherWidget/static/js/main.c3233ea6.js.map",
+    "main.942570c6.js.map": "/PortfolioWeatherWidget/static/js/main.942570c6.js.map",
     "453.dfcbff64.chunk.js.map": "/PortfolioWeatherWidget/static/js/453.dfcbff64.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.918a1388.css",
-    "static/js/main.c3233ea6.js"
+    "static/js/main.942570c6.js"
   ]
 }
