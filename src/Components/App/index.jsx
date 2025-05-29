@@ -44,6 +44,7 @@ export default function App() {
 		)
 			.then((response) => {
 				if (!response.ok) {
+					sessionStorage.clear();
 					throw Error(`is not ok: ` + response.status);
 				}
 				return response.json();
@@ -75,6 +76,7 @@ export default function App() {
 		)
 			.then((response) => {
 				if (!response.ok) {
+					sessionStorage.clear();
 					throw Error(`is not ok: ` + response.status);
 				}
 				return response.json();
