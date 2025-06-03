@@ -11,3 +11,4 @@
 - You have the option to get a five-day or one-day weather forecast
 - You can get a forecast by geolocation
 - You can get a forecast for the location you enter
+- Adapted for mobile devices
